@@ -5,17 +5,18 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#Installation)
-- [Run the application](#Run the application)
-- [Result of Features Implementation](#Result of Features Implementation)
-- [Upcoming Features](#Upcoming Features)
+- [Run the application](#Runtheapplication)
+- [Result of Features Implementation](#ResultofFeaturesImplementation)
+- [Upcoming Features](#UpcomingFeatures)
 - [License](#license)
+- [Video Tutorial](#VideoTutorial)
 
 ## Features
 - Interactive Video Reviews on every landing page of food merchants
 - CTA "Add to Basket" button on every videos to influence and encourage customers who have interest on the menu to choose the menu.
 
 ## Prerequisites
-- **Python 3.8**: Ensure you have Python 3.8 installed. You can download it from the official Python website(#https://www.python.org/downloads/release/python-380/). Using higher version might effect the project's build.
+- **Python 3.8**: Ensure you have Python 3.8 installed. You can download it from the official Python website(https://www.python.org/downloads/release/python-380/). Using higher version might effect the project's build.
 - **pip**: This is the Python package installer. It comes bundled with Python, but you can verify its installation by running `pip --version` in your terminal.
 
 ### Installation
