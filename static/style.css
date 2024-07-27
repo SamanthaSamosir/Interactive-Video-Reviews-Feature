@@ -1,0 +1,332 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 100%;
+    max-width: 414px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    margin-left: 10px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.rating, .menu-language, .delivery-info, .discount-info, .group-order {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.today-offer, .for-you {
+    margin-top: 20px;
+}
+
+.today-offer h2, .for-you h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.scrollable-container-horizontal {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px 0;
+}
+
+.scrollable-container-vertical {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 400px; /* Adjust based on your design */
+}
+
+.offer-item, .for-you-item {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Adjust to fit within the grid */
+    height: 100px; /* Set consistent height */
+    box-sizing: border-box;
+}
+
+.offer-item {
+    margin-right: 10px;
+    height:100px;
+}
+
+.offer-item img, .for-you-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.offer-details, .for-you-details {
+    margin-left: 10px;
+}
+
+.offer-details h3{
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    align:left;
+    width:202px;
+}
+
+.offer-details h3, .for-you-details h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+.offer-details p{
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+    width:300px;
+}
+.offer-details p, .for-you-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.price {
+    font-size: 16px;
+    color: #e53935;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+.video-review {
+    margin-top: 20px;
+}
+
+.video-review h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.scrollable-container-horizontal {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.scrollable-container-horizontal::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Webkit browsers */
+}
+
+.video-item {
+    background-color: #fff;
+    width: 130px; /* Adjust based on your design */
+    height: 200px; /* Adjust based on your design */
+    margin-right: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; /* Prevent shrinking to keep the width consistent */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.video-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+    border-radius: 8px;
+}
+
+
+.offer-item, .for-you-item {
+    position: relative; /* Ensure the button is positioned relative to the item */
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Adjust to fit within the grid */
+    height: 100px; /* Set consistent height */
+    box-sizing: border-box;
+}
+
+.add-button {
+    position: absolute; /* Position the button within the item */
+    bottom: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 50%; /* Round button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Adjust font size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.hoka-bites {
+    margin-top: 20px;
+}
+
+.hoka-bites h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.bites-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for bites items */
+    gap: 10px;
+}
+
+.bites-item {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Adjust to fit within the grid */
+    height: 100px; /* Set consistent height */
+    box-sizing: border-box;
+    position: relative; /* Ensure the button is positioned relative to the item */
+}
+
+.bites-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.bites-details {
+    margin-left: 10px;
+}
+
+.bites-details h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.bites-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.bites-details .price {
+    font-size: 14px;
+    color: #666; /* Same color as other details */
+}
+/* Update this in your style.css */
+
+.popup-video {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 10px;
+    right: calc((100% - 414px) / 2); /* Align to the right within the content width */
+    width: 130px; /* Same width as the video-item */
+    height: 200px; /* Same height as the video-item */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.popup-video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+/* Modal styling */
+.video-modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it’s on top of other content */
+    flex-direction: column; /* Arrange children in a column */
+}
+
+.video-container {
+    position: relative; /* Create a containing block for the button */
+}
+
+.video-modal video {
+    width: 289px; /* 70% of 414px */
+    height: auto;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1001; /* Ensure it’s on top of the video */
+}
+
+.add-to-basket-button {
+    position: absolute;
+    bottom: 70px; /* Adjust this value to move the button up */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for perfect centering */
+    width: auto; /* Adjust width as needed */
+    padding: 10px 80px; /* Add padding */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: center; /* Center text */
+}
+
+.add-to-basket-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

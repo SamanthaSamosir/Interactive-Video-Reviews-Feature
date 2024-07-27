@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=414, initial-scale=1.0">
+    <title>HokBen - Kitchen Fatmawati</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="{{ url_for('static', filename='banner.webp') }}" alt="Banner Image">
+        </div>
+        <div class="header">
+            <div class="header-content">
+                <h1>HokBen - Kitchen Fatmawati</h1>
+                <div class="rating">
+                    <span>⭐ 4.8 (2K+)</span>
+                    <span>• Ratings and reviews</span>
+                </div>
+                <div class="menu-language">
+                    <span>🌐 Menu language</span>
+                </div>
+                <div class="delivery-info">
+                    <span>2.9 km (From 30 mins)</span>
+                    <span>Deliver now | <del>Rp7.000</del> Free</span>
+                </div>
+                <div class="discount-info">
+                    <span>HOKBENHEMAT30A 30rb | HOKBENHEMAT15B...</span>
+                </div>
+                <div class="group-order">
+                    <span>Only with GrabUnlimited</span>
+                    <span>Rp10rb off delivery fee</span>
+                </div>
+            </div>
+        </div>
+        <!-- Video Review Section -->
+        <div class="video-review">
+            <h2>Video Reviews</h2>
+            <div class="scrollable-container-horizontal">
+                <div class="video-item">
+                    <!-- Add your video thumbnail and details here -->
+                    <video src="{{ url_for('static', filename='video1.mp4') }}" autoplay muted loop playsinline></video>
+                </div>
+                <div class="video-item">
+                    <video src="{{ url_for('static', filename='video2.mp4') }}" autoplay muted loop playsinline></video>
+                </div>
+                <div class="video-item">
+                    <video src="{{ url_for('static', filename='video3.mp4') }}" autoplay muted loop playsinline></video>
+                </div>
+                <div class="video-item">
+                    <video src="{{ url_for('static', filename='video5.mp4') }}" autoplay muted loop playsinline></video>
+                </div>
+            </div>
+        </div>
+        <div id="popup-video" class="popup-video">
+            <video src="{{ url_for('static', filename='video1.mp4') }}" autoplay muted loop playsinline></video>
+            <button id="add-to-basket-button" class="add-to-basket-button" style="display: none;">Add to Basket</button>
+        </div>
+
+        <div class="today-offer">
+            <h2>Today's Offer</h2>
+            <div class="scrollable-container-horizontal">
+                <div class="offer-item">
+                    <img src="{{ url_for('static', filename='super_bowl_beef.webp') }}" alt="Super Bowl Beef">
+                    <div class="offer-details">
+                        <h3>Super Bowl Beef + Egg Chicken Roll + Egg</h3>
+                        <p>Beef Teriyaki / Beef Yakiniku, Egg Chicken Roll 2 pcs, Nasi, Telur</p>
+                        <p class="price">34.613 <span class="old-price">48.373</span></p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="offer-item">
+                    <img src="{{ url_for('static', filename='super_bowl_beef2.webp') }}" alt="Super Bowl Beef 2">
+                    <div class="offer-details">
+                        <h3>Super Bowl Beef + Shrimp Roll + Egg</h3>
+                        <p>Beef Teriyaki / Beef Yakiniku, Shrimp Roll 2 Pcs, Rice, Egg</p>
+                        <p class="price">34.613 <span class="old-price">48.373</span></p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="offer-item">
+                    <img src="{{ url_for('static', filename='super_bowl_beef3.webp') }}" alt="Super Bowl Beef 2">
+                    <div class="offer-details">
+                        <h3>Super Bowl Beef + Tori Ball + Egg</h3>
+                        <p>Beef Teriyaki / Beef Yakiniku, Tori Ball 2 Pcs, Rice, Egg</p>
+                        <p class="price">34.613 <span class="old-price">48.373</span></p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+                <!-- Add more offer items as needed -->
+            </div>
+        </div>
+        <div class="for-you">
+            <h2>For You</h2>
+            <div class="scrollable-container-vertical">
+                <div class="for-you-item">
+                    <img src="{{ url_for('static', filename='paket_c.webp') }}" alt="Paket C">
+                    <div class="for-you-details">
+                        <h3>Paket C</h3>
+                        <p class="price">51.293</p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="for-you-item">
+                    <img src="{{ url_for('static', filename='bento_special_4.webp') }}" alt="Bento Special 4">
+                    <div class="for-you-details">
+                        <h3>Bento Special 4</h3>
+                        <p class="price">58.382</p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="for-you-item">
+                    <img src="{{ url_for('static', filename='hoka_hemat_3.webp') }}" alt="Paket A">
+                    <div class="for-you-details">
+                        <h3>Hoka Hemat 3</h3>
+                        <p class="price">25.021</p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="for-you-item">
+                    <img src="{{ url_for('static', filename='hoka_hemat_1.webp') }}" alt="Paket B">
+                    <div class="for-you-details">
+                        <h3>Hoka Hemat 1</h3>
+                        <p class="price">25.021</p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+                <!-- Add more items here if needed, making sure the total is 8 items for 4 rows of 2 columns -->
+                <div class="for-you-item">
+                    <img src="{{ url_for('static', filename='simple_set_chicken_teriyaki_2.webp') }}" alt="Paket B">
+                    <div class="for-you-details">
+                        <h3>Simple Set Chicken Teriyaki 2</h3>
+                        <p class="price">37.949</p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="for-you-item">
+                    <img src="{{ url_for('static', filename='paket_a.webp') }}" alt="Paket B">
+                    <div class="for-you-details">
+                        <h3>Paket A</h3>
+                        <p class="price">51.293</p>
+                    </div>
+                    <button class="add-button">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="hoka-bites">
+        <h2>Hoka Bites</h2>
+        <div class="bites-container">
+            <div class="bites-item">
+                <img src="{{ url_for('static', filename='gyoza1.webp') }}" alt="Gyoza">
+                <div class="bites-details">
+                    <h3>Gyoza 1</h3>
+                    <p>Delicious Japanese dumplings filled with meat and vegetables.</p>
+                    <p class="price">18.349</p>
+                </div>
+                <button class="add-button">+</button>
+            </div>
+            <div class="bites-item">
+                <img src="{{ url_for('static', filename='gyoza2.webp') }}" alt="Gyoza">
+                <div class="bites-details">
+                    <h3>Gyoza 2</h3>
+                    <p>Delicious Japanese dumplings filled with meat and vegetables.</p>
+                    <p class="price">25.855</p>
+            </div>
+            <button class="add-button">+</button>
+        </div>
+    </div>
+</div>
+        <div id="video-modal" class="video-modal">
+            <span class="close-modal">&times;</span>
+            <video id="modal-video" controls></video>
+            <button class="add-to-basket-button">Add to Basket</button>
+        </div>
+
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const videoReviewSection = document.querySelector('.video-review');
+        const popupVideo = document.getElementById('popup-video');
+        const videoItems = document.querySelectorAll('.video-item video');
+        const videoModal = document.getElementById('video-modal');
+        const modalVideo = document.getElementById('modal-video');
+        const closeModal = document.querySelector('.close-modal');
+        const addToBasketButton = document.querySelector('.add-to-basket-button');
+
+        function checkVideoReviewVisibility() {
+            const rect = videoReviewSection.getBoundingClientRect();
+            const isCompletelyOutOfView = rect.bottom <= 0 || rect.top >= window.innerHeight;
+
+            if (isCompletelyOutOfView) {
+                popupVideo.style.display = 'block';
+            } else {
+                popupVideo.style.display = 'none';
+            }
+        }
+        videoItems.forEach(video => {
+            video.addEventListener('click', function() {
+                const videoSrc = video.getAttribute('src');
+                modalVideo.setAttribute('src', videoSrc);
+                videoModal.style.display = 'flex';
+                modalVideo.play(); // Start playing the video
+            });
+        });
+        closeModal.addEventListener('click', function() {
+            videoModal.style.display = 'none';
+            modalVideo.pause(); // Pause the video
+            modalVideo.setAttribute('src', ''); // Remove the video source
+        });
+        addToBasketButton.addEventListener('click', function() {
+            alert('Item added to basket!'); // Replace with actual functionality
+        });
+
+        window.addEventListener('scroll', checkVideoReviewVisibility);
+        window.addEventListener('resize', checkVideoReviewVisibility);
+
+        // Initial check in case the page is already scrolled
+        checkVideoReviewVisibility();
+    });
+    </script>
+
+</body>
+</html>
