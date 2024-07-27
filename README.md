@@ -34,10 +34,10 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 
 
 ## Result of Features Implementation
-- **Boosted Restaurant Sales:**: Interactive and variative reviews encourages customers to explore new restaurants and menu items, driving higher sales for restaurants.
-- **Efficient Decision-Making::**: This feature is designed to influence customers decision-making of what to eat, saving them time and effort in making dining choices.
-- **Informed Decision-Making:**: Customers will have access to more detailed and authentic reviews, helping them make better dining choices.
-- **Increased User Engagement**: Interactive video reviews provide a more immersive and enjoyable experience, leading to higher user engagement on the platform.
+- **Boosted Restaurant Sales:** Interactive and variative reviews encourages customers to explore new restaurants and menu items, driving higher sales for restaurants.
+- **Efficient Decision-Making:** This feature is designed to influence customers decision-making of what to eat, saving them time and effort in making dining choices.
+- **Informed Decision-Making:** Customers will have access to more detailed and authentic reviews, helping them make better dining choices.
+- **Increased User Engagement** Interactive video reviews provide a more immersive and enjoyable experience, leading to higher user engagement on the platform.
 
 ## License
 This project is licensed under the GNU Affero General Public License v3.0 License. See the LICENSE file for more details.
