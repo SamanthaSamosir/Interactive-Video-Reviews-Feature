@@ -5,8 +5,8 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#Installation)
-- [Run the application](#runtheapplication)
-- [Result of Features Implementation](#resultoffeaturesimplementation)
+- [Run](#run)
+- [Result](#result)
 - [Upcoming Features](#upcomingfeatures)
 - [License](#license)
 - [Video Tutorial](#videotutorial)
@@ -35,7 +35,7 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
     pip install Flask
     ```
 
-### Run the Application
+### Run
 1. **Run the Flask App**:
     ```bash
     python app.py
