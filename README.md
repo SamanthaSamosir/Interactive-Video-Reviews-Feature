@@ -2,22 +2,27 @@
 Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with Video-to-Text AI Implementation.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Setup Instructions](#setup-instructions)
 - [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#setup-instructions)
 - [Technology Stack](#technology-stack)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
-This project is developed as part of a hackathon submission. It aims to provide users with an interactive and visually appealing interface to browse through HokBen's menu items and view video reviews.
+## Features
+- Interactive Video Reviews on every landing page of food merchants
+- CTA "Add to Basket" button on every videos to influence and encourage customers who have interest on the menu to choose the menu.
+
+## Prerequisites
+- Pycharm Community Edition or any other softwares.
+- Python 3.8 or higher (it might or might not affecting the project, recommended using Python 3.8 due to the base of the project built in that version).
 
 ### Installation
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/SamanthaSamosir/Interactive-Video-Reviews-Feature.git
+    cd Interactive-Video-Reviews-Feature
     ```
 2. **Create a Virtual Environment**:
     ```bash
