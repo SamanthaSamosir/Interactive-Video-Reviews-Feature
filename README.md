@@ -15,8 +15,8 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 - CTA "Add to Basket" button on every videos to influence and encourage customers who have interest on the menu to choose the menu.
 
 ## Prerequisites
-- Pycharm Community Edition or any other softwares.
-- Python 3.8 or higher (it might or might not affecting the project, recommended using Python 3.8 due to the base of the project built in that version).
+- **Python 3.8**: Ensure you have Python 3.8 installed. You can download it from the official Python website(#https://www.python.org/downloads/release/python-380/). Using higher version might effect the project's build.
+- **pip**: This is the Python package installer. It comes bundled with Python, but you can verify its installation by running `pip --version` in your terminal.
 
 ### Installation
 1. **Clone the Repository**:
@@ -26,15 +26,15 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
     ```
 2. **Create a Virtual Environment**:
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate # On Windows use `venv\Scripts\activate`
+    python3.8 -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 3. **Install Dependencies**:
     ```bash
-    pip install -r requirements.txt
+    pip install Flask
     ```
 
-### Running the Application
+### Run the Application
 1. **Run the Flask App**:
     ```bash
     python app.py
@@ -47,27 +47,6 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 - **Efficient Decision-Making::**: This feature is designed to influence customers decision-making of what to eat, saving them time and effort in making dining choices.
 - **Informed Decision-Making:**: Customers will have access to more detailed and authentic reviews, helping them make better dining choices.
 - **Increased User Engagement**: Interactive video reviews provide a more immersive and enjoyable experience, leading to higher user engagement on the platform.
-
-## Technology Stack
-- **Backend**: Flask
-- **Frontend**: HTML, CSS, JavaScript
-- **Deployment**: [Your deployment platform, e.g., Heroku]
-
-## Technology Services
-- **Web Server**: Flask
-- **Styling**: CSS
-- **Video Playback**: HTML5 Video
-
-## Setup Instructions
-### Prerequisites
-- Python 3.x
-- Flask
-- Git
-
-
-## Usage
-- **Video Reviews**: Click on any video to view it in a larger modal window.
-- **Add to Basket**: Click the "+" button to add items to your basket.
 
 ## Upcoming Features
 We welcome contributions from the community. To contribute:
