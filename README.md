@@ -4,10 +4,10 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#setup-instructions)
-- [Technology Stack](#technology-stack)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Installation](#Installation)
+- [Run the application](#Run the application)
+- [Result of Features Implementation](#Result of Features Implementation)
+- [Upcoming Features](#Upcoming Features)
 - [License](#license)
 
 ## Features
