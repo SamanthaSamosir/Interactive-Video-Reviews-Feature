@@ -4,12 +4,12 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#Installation)
+- [Installation](#installation)
 - [Run](#run)
 - [Result](#result)
-- [Upcoming Features](#upcomingfeatures)
+- [Upcoming-Features](#upcoming-features)
 - [License](#license)
-- [Video Tutorial](#videotutorial)
+- [Video-Tutorial](#video-tutorial)
 
 ## Features
 - Interactive Video Reviews on every landing page of food merchants
