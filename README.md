@@ -43,5 +43,5 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 This project is licensed under the GNU Affero General Public License v3.0 License. See the LICENSE file for more details.
 
 ## Video Tutorial
-[Link to your video tutorial]
+https://www.youtube.com/watch?v=WuFoEcvLBSc
 
