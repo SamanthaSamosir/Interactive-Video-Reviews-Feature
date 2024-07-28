@@ -4,6 +4,7 @@ Boosting Grab Food’s Sales through an Interactive Video Reviews Feature with V
 ## Features
 - Interactive Video Reviews on every landing page of food merchants
 - CTA "Add to Basket" button on every videos to influence and encourage customers who have interest on the menu to choose the menu.
+- Figma: https://www.figma.com/design/Fawi0GmzFigAfk2i938mC6/APOLLO-PROJECT?node-id=0-1&t=ud57BeIPP9fFihgf-1
 
 ## Prerequisites
 - **Python 3.8**: Ensure you have Python 3.8 installed. You can download it from the official Python website(https://www.python.org/downloads/release/python-380/). Using higher version might effect the project's build.
